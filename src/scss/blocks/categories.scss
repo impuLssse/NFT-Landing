@@ -1,0 +1,56 @@
+.categories {
+    position: relative;
+
+    .effect-pink {
+        position: absolute;
+        width: 228px;
+        height: 167px;
+        left: 220px;
+        top: 200px;
+        background: #D53D5C;
+        filter: blur(225px);
+        z-index: -99;
+    }
+}
+
+#categories .items {
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 415px;
+        height: 504px;
+        
+        .pic {
+            width: 351px;
+            height: 306px;
+        }
+
+        .content {
+            display: flex;
+            margin-top: 16px;
+            height: 122px;
+
+            .profile {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                height: 62px;
+
+                .men {
+                    display: flex;
+                    justify-content: space-between;
+
+                    img {
+                        width: 58px;
+                        height: 58px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#categories .title {
+    width: 694px;
+}

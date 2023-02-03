@@ -1,0 +1,121 @@
+.footer__main {
+    .container {
+        max-width: 100%;
+    }
+
+    background-color: #251928;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    .effects {
+        height: 512px;
+        top: 0;
+        left: 0;
+
+        .background {
+            position: absolute;
+            height: 100%;
+            background: white;
+        }
+    
+        .effect-pink {
+            position: absolute;
+            height: 167px;
+            width: 202px;
+            top: 0;
+            left: 0px;
+            background: #D53D5C;
+            filter: blur(275px);
+        }
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+
+        .logo {
+            width: 194px;
+            height: 194px;
+        }
+        
+        .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 277px;
+            margin-left: 51px;
+            
+            h3 {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 36px;
+                color: $lightpink;
+                width: 291px;
+            }
+
+            section {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 227px;
+                height: 45px;
+
+                .icon {
+                    &:hover {
+                        color: #D53D5C;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 36px;
+                color: $lightpink;
+            }
+        }
+
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 198px;
+            width: 508px;
+
+            ul {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 50px;
+
+                li {
+                    list-style: none;
+                    
+                    a {
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 50px;
+                        color: $lightpink;
+                    }
+
+                    a:hover {
+                        color: #D53D5C;
+                    }
+                }
+
+                li:first-child {
+                    color: $white2;
+                    margin-bottom: 18px;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 35px;
+                }
+            }
+        }
+    }
+}

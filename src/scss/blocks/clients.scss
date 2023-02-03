@@ -1,0 +1,28 @@
+.clients {
+    display: flex;
+    align-items: center;
+    width: 1236px;
+    height: 41px;
+    margin: 104px auto;
+    justify-content: space-between;
+
+    .coinbase {
+        width: 170px;
+        height: 100%;
+    }
+
+    .blockchain {
+        width: 309px;
+        height: 32px;
+    }
+
+    .binance {
+        width: 204px;
+        height: 100%;
+    }
+
+    .bitmex {
+        width: 178px;
+        height: 28px;
+    }
+}

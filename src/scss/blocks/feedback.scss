@@ -1,0 +1,62 @@
+.feedback {
+    .content {
+        display: flex;
+        margin: 117px auto;
+        flex-direction: column;
+        width: 819px;
+        height: 218px;
+
+        h3 {
+            font-family: 'Oxanium';
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 130px;
+            text-align: center;
+        }
+        
+        div {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            padding: 0;
+            margin: 0 auto;
+            width: 680px;
+            height: 96px;
+
+            input {
+                position: absolute;
+                display: flex;
+                width: 70%;
+                height: 100%;
+                border: 3px solid $gold;
+                background: none;
+                border-right: 0;
+                padding-left: 53px;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 35px;
+                color: #A48EA9;
+                
+                &::placeholder {
+                    color: #A48EA9;
+                }
+            }
+
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right: 0;
+                width: 30%;
+                height: 100%;
+                padding: 32px 63px;
+                background: #E7B226;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 35px;
+                color: #251928;
+            }
+        }
+    }
+}

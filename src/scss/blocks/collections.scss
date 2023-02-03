@@ -1,0 +1,65 @@
+.collections {
+    margin-top: 174px;
+
+    .items {
+        margin-top: 42px;
+        display: flex;
+        flex-direction: row;
+
+        .card {
+            padding: 36px;
+            margin: 36px;
+            background: $purple;
+            width: 525px;
+            height: 432px;
+            
+            img {
+                height: 272px;
+                width: 453px;
+            }
+
+            .content {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 24px;
+                height: 64px;
+
+                div {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    img {
+                        width: 64px;
+                        height: 100%;
+                        margin-right: 16px;
+                    }
+    
+                    h3 {
+                        font-weight: 500;
+                        font-size: 32px;
+                        line-height: 36px;
+                        color: $white2;
+                    }
+                }
+
+                p {
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 35px;
+                    color: #C2B5C6;
+                    justify-content: flex-end;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+#collections .title {
+    width: 623px;
+}

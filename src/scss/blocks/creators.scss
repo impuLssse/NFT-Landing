@@ -1,0 +1,92 @@
+.creators {
+    width: 1288px;
+
+    .peoples {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .men {
+            display: flex;
+            width: 608px;
+            height: 156px;
+            background: #302034;
+            box-shadow: inset 2px 0px 0px #E03054;
+            border-left: #E03054;
+            justify-content: center;
+            align-items: center;
+
+            .content {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 520px;
+                height: 104px;
+                
+                img {
+                    height: 100%;
+                    border-radius: 50%;
+                }
+                
+                .creds {
+                    margin-left: 24px;
+
+                    h3 {
+                        width: max-content;
+                        font-weight: 600;
+                        font-size: 32px;
+                        line-height: 35px;
+                        color: $white2;
+                        margin-bottom: 8px;
+                    }
+
+                    p {
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 36px;
+                        color: $lightpink;
+                    }
+                }
+
+                .sep {
+                    width: 100px;
+                    border: 2px solid #49374E;
+                    transform: rotate(90deg);
+                }
+
+                .count {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    h3 {
+                        font-family: 'Oxanium';
+                        font-weight: 700;
+                        font-size: 32px;
+                        line-height: 35px;
+                        color: $white2;
+                    }
+
+                    p {
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 36px;
+                        color: $lightpink;
+                    }
+                }
+            }
+        }
+
+        .men:nth-child(2n) {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+
+#creators .title {
+    width: 428px;
+    margin-top: 104px;
+    margin-bottom: 80px;
+}

@@ -1,0 +1,32 @@
+body {
+  overflow-x: hidden;
+  position: relative;
+  color: $white4;
+  @include font('Work Sans', 400);
+  background: $black;
+
+  &.active-body {
+    overflow: hidden;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 36px;
+}
+
+a,
+button {
+  color: $white2;
+}
+
+.container {
+  max-width: 1390px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}

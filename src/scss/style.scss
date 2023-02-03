@@ -1,0 +1,23 @@
+@import 'components/vars';
+@import 'components/mixins';
+@import 'components/normalize';
+
+// reset
+@import 'components/reset';
+@import 'components/default';
+
+// vendors
+@import 'vendor/swiper-bundle';
+@import 'vendor/aos';
+
+// blocks
+@import 'blocks/header';
+@import 'blocks/area';
+@import 'blocks/clients';
+@import 'blocks/auctions';
+@import 'blocks/how';
+@import 'blocks/collections';
+@import 'blocks/categories';
+@import 'blocks/creators';
+@import 'blocks/feedback';
+@import 'blocks/footer';
