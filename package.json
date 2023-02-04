@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "gulp",
-    "build": "gulp build --build",
+    "build": "gulp build --build && npm run svgSprive",
     "svgSprive": "gulp svgSprive",
     "zip": "gulp deployZIP --build",
     "deploy": "gulp deployFTP --build"
