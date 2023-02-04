@@ -1,10 +1,37 @@
+.feedback__main {
+    .container {
+        max-width: 100%;
+    }
+
+    background: linear-gradient(203.88deg, #1C121F -1.37%, rgba(28, 18, 31, 0.21) 105.11%), url(../../img/pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .feedback {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 452px;
+    width: 100%;
+
+    .light {
+        position: absolute;
+        width: 262px;
+        height: 165px;
+        top: 50%;
+        left: 70%;
+        background: #B1D26F;
+        filter: blur(225px);
+        z-index: 100;
+    }
+
     .content {
         display: flex;
-        margin: 117px auto;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
-        width: 819px;
-        height: 218px;
 
         h3 {
             font-family: 'Oxanium';

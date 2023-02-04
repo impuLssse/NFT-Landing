@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     width: 1236px;
-    height: 41px;
+    height: 70px;
     margin: 104px auto;
     justify-content: space-between;
 
@@ -13,7 +13,7 @@
 
     .blockchain {
         width: 309px;
-        height: 32px;
+        height: 100%;
     }
 
     .binance {
@@ -23,6 +23,6 @@
 
     .bitmex {
         width: 178px;
-        height: 28px;
+        height: 100%;
     }
 }
